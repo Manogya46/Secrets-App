@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Montserrat:wght@100;200;300;400;500&family=Roboto:ital,wght@0,100;0,400;1,400&family=Ubuntu&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0%;
+    padding:0%;
+    overflow-x: hidden;
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(218, 218, 226);
+} 
+
+.heading{
+  background-color:#f5ba13;
+  height:80px;
+  color:white;
+  width:100%;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 30%);
+}
+
+.heading-name{
+  margin: auto -16px;
+  padding: 16px 32px;
+}
+
+.card{
+  display:flex;
+  flex-direction: row;
+}
+
+.note{
+    max-width:200px;
+    height:200px;
+    max-width:300px;
+    background-color: white;
+    margin:30px;
+    padding:20px;
+    border-radius: 5px;;
+    box-shadow: 0 2px 5px #ccc;
+    float: left;
+}
+
+.title{
+    font-weight:580;
+    padding-bottom: 5px;
+    font-size: 17px;
+}
+
+.content{
+    font-size:15px;
+}
+
+.footer{
+    position:absolute;
+    text-align: center;
+    bottom:0;
+    width:100%;
+    color:rgb(160, 155, 155);
+} 
